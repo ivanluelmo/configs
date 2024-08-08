@@ -1,0 +1,50 @@
+# 20240808 : By Sergio
+# Alacritty config file
+# $HOME/.config/alacritty/alacritty.toml
+
+# Sources
+# https://alacritty.org/config-alacritty.html
+
+live_config_reload = true
+import = [
+    "~/.config/alacritty/themes/themes/Cobalt2.toml"
+]
+
+[window]
+dimensions = { columns = 120, lines = 40 }
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+decorations = "Full"
+opacity = 0.85
+blur = true
+dynamic_title = true
+startup_mode = "Windowed"
+decorations_theme_variant = "Light" # "Dark"
+resize_increments = true
+
+[scrolling]
+history = 20000
+multiplier = 2
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font Mono", style = "Regular" }
+size = 11.0
+
+[bell]
+animation = "EaseOutCubic"
+duration = 1
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+unfocused_hollow = true
+blink_interval = 600
+blink_timeout = 0
+
+[mouse]
+hide_when_typing = true
+
+
+     
