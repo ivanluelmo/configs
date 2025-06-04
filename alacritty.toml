@@ -1,21 +1,24 @@
 # 20240808 : By Sergio
+# 20250604 : By Sergio : auto-imported, general section, blur
 # Alacritty config file
 # $HOME/.config/alacritty/alacritty.toml
 
 # Sources
 # https://alacritty.org/config-alacritty.html
 
+[general]
 live_config_reload = true
 import = [
     "~/.config/alacritty/themes/themes/Cobalt2.toml"
 ]
+
 
 [window]
 dimensions = { columns = 120, lines = 40 }
 padding = { x = 10, y = 10 }
 dynamic_padding = true
 decorations = "Full"
-opacity = 0.85
+opacity = 0.6
 blur = true
 dynamic_title = true
 startup_mode = "Windowed"
@@ -28,7 +31,7 @@ multiplier = 2
 
 [font]
 normal = { family = "JetBrainsMono Nerd Font Mono", style = "Regular" }
-size = 11.0
+size = 14.0
 
 [bell]
 animation = "EaseOutCubic"
@@ -45,6 +48,3 @@ blink_timeout = 0
 
 [mouse]
 hide_when_typing = true
-
-
-     
