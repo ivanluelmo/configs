@@ -10,6 +10,7 @@ alias eza='eza -lahB --icons=auto --classify=auto --sort=name --group-directorie
 alias dir='eza -glahbM --icons=always --hyperlink --show-symlinks --time-style=relative '
 alias ltree='eza -RTL=3 '
 alias tree='eza -DRTL=4 '
+alias cls='clear '
 
 find_man() {
     man $1 | grep -- $2
